@@ -1,0 +1,35 @@
+.right{
+    overflow-y:scroll ;
+}
+
+.right::-webkit-scrollbar{
+  display: none;
+}
+
+.contact-p{
+    overflow: hidden;
+}
+
+.box{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dustbin{
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.dustbin i{
+    font-size: 25px;
+    color: rgb(50, 22, 22);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dustbin i:hover{
+    color: rgb(193, 5, 5);
+}
