@@ -33,3 +33,25 @@
 .dustbin i:hover{
     color: rgb(193, 5, 5);
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .App{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-p{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        margin-left: 0px;
+    }
+
+    
+
+}
